@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SoHuman</title>
+  <link rel="icon" type="image/png" href="/propuesta-2/favicon.png" />
+  <meta name="description" content="Acompañamiento para mujeres en transición profunda. Identidad, mente y coherencia femenina." />
+
+  <!-- Open Graph -->
+  <meta property="og:type"         content="website" />
+  <meta property="og:url"          content="https://elenasohuman.com/" />
+  <meta property="og:title"        content="SoHuman — Volver a ti y sostenerlo en la vida real" />
+  <meta property="og:description"  content="Mentoría privada para mujeres listas para transfoFrmar su identidad, mente y decisiones." />
+  <meta property="og:image"        content="https://elenasohuman.com/og-image.png" />
+  <meta property="og:image:width"  content="1080" />
+  <meta property="og:image:height" content="1080" />
+  <meta property="og:locale"       content="es_AR" />
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:title"       content="SoHuman — Volver a ti y sostenerlo en la vida real" />
+  <meta name="twitter:description" content="Mentoría privada para mujeres listas para transformar su identidad, mente y decisiones." />
+  <meta name="twitter:image"       content="https://elenasohuman.com/og-image.png" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@27.1.3/dist/css/intlTelInput.css" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@27.1.3/dist/js/intlTelInput.min.js"></script>
+
+</head>
+<body>
+
+   <!-- ══ NAVBAR ══ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="/propuesta-2/images/logo-cream.webp" alt="SoHuman" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#metodo" data-i18n="nav-metodo">Método</a></li>
+        <li><a href="#sobre-mi" data-i18n="nav-sobre">Sobre mí</a></li>
+        <li><a href="#recursos" data-i18n="nav-recursos">Recursos</a></li>
+        <li><a href="#servicios" data-i18n="nav-mentoria">Mentoría</a></li>
+        <li><a href="#agendar" data-i18n="nav-agendar">Agendar</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-toggle" id="langToggle">
+          <button class="lang-btn is-active" data-lang="es">ES</button>
+          <span class="lang-sep">|</span>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+        <button class="nav-cta apply-trigger" data-i18n="nav-cta">Quiero ordenar mi vida</button>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <a href="#metodo" data-i18n="nav-metodo">Método</a>
+      <a href="#sobre-mi" data-i18n="nav-sobre">Sobre mí</a>
+      <a href="#recursos" data-i18n="nav-recursos">Recursos</a>
+      <a href="#servicios" data-i18n="nav-mentoria">Mentoría</a>
+      <a href="#agendar" data-i18n="nav-agendar">Agendar</a>
+        <button class="nav-cta apply-trigger" data-i18n="nav-cta">Quiero ordenar mi vida</button>
+      <div class="lang-toggle lang-toggle--mobile">
+        <button class="lang-btn is-active" data-lang="es">ES</button>
+        <span class="lang-sep">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══ HERO ══ -->
+  <section id="hero" class="hero">
+    <div class="hero-text">
+      <h1 data-i18n="hero-h1">Volver a ti...<br>y sostenerlo<br>en la vida real.</h1>
+      <p class="hero-sub" data-i18n="hero-sub">Para mujeres que sienten que algo cambió... y no saben cómo sostenerse.</p>
+      <div class="hero-actions">
+        <button class="btn btn-cream apply-trigger" data-i18n="hero-btn1">Aplica a mentoría</button>
+        <a href="#metodo" class="btn btn-ghost" data-i18n="hero-btn2">Conoce más →</a>
+      </div>
+    </div>
+    <div class="hero-photo">
+      <img src="/propuesta-2/images/elena.webp" alt="Elena — SoHuman" loading="eager" fetchpriority="high" />
+      <div class="hero-photo__overlay"></div>
+    </div>
+  </section>
+
+  <!-- ══ PARA TI SI ══ -->
+  <section id="conexion" class="section conexion">
+    <div class="container">
+      <p class="overline" data-i18n="conexion-overline">Esto es para ti si sabes que no puedes seguir igual…</p>
+      <div class="conexion-grid">
+        <div class="conexion-num-block reveal">
+          <span class="big-num">01</span>
+          <p data-i18n="conexion-1">Sientes que algo no está alineado en tu vida</p>
+        </div>
+        <div class="conexion-num-block reveal">
+          <span class="big-num">02</span>
+          <p data-i18n="conexion-2">Sabes que quieres más, pero no sabes cómo</p>
+        </div>
+        <div class="conexion-num-block reveal">
+          <span class="big-num">03</span>
+          <p data-i18n="conexion-3">Estás cansada de hacerlo sola</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══ QUÉ HAGO ══ -->
+  <section class="section que-hago">
+    <div class="que-hago__inner container">
+      <p class="overline overline--light" data-i18n="quehago-overline">¿Qué hago?</p>
+      <h2 data-i18n="quehago-h2">Te ayudo a cambiar cómo piensas,<br>cómo te ves y cómo actúas.</h2>
+      <p data-i18n="quehago-p">Para que tu vida refleje lo que realmente quieres.</p>
+    </div>
+  </section>
+
+  <!-- ══ MÉTODO ══ -->
+  <section id="metodo" class="section metodo">
+    <div class="container">
+      <p class="overline" data-i18n="metodo-overline">Mi método</p>
+      <h2 data-i18n="metodo-h2">Cuatro capas <em>de transformación</em></h2>
+      <p class="metodo-sub" data-i18n="metodo-sub">No es motivación. Es la estructura interna que sostiene un cambio real.</p>
+      <p class="metodo-sub" data-i18n="metodo-sub2">No estás perdida. Estás sosteniendo una versión de ti que ya no te representa.</p>
+      <div class="metodo-grid">
+        <div class="metodo-card reveal" style = "background: white;">
+          <span class="metodo-step">01</span>
+          <h3 data-i18n="metodo-1-h3">Identidad</h3>
+          <span class="metodo-label" data-i18n="metodo-1-label">— QUIÉN ERES</span>
+          <p data-i18n="metodo-1-p">Revisamos la historia que hoy te define y la reescribimos desde una versión más alineada contigo.</p>
+        </div>
+        <div class="metodo-card reveal">
+          <span class="metodo-step">02</span>
+          <h3 data-i18n="metodo-2-h3">Mente</h3>
+          <span class="metodo-label" data-i18n="metodo-2-label">— CÓMO PIENSAS</span>
+          <p data-i18n="metodo-2-p">Identificamos los patrones que te frenan para que dejes de repetir lo mismo y empieces a avanzar con claridad.</p>
+        </div>
+        <div class="metodo-card reveal" style = "background: white;">
+          <span class="metodo-step">03</span>
+          <h3 data-i18n="metodo-3-h3">Hábitos</h3>
+          <span class="metodo-label" data-i18n="metodo-3-label">— CÓMO ACTÚAS</span>
+          <p data-i18n="metodo-3-p">Construimos hábitos reales y sostenibles que te acerquen a la vida que dices que quieres.</p>
+        </div>
+        <div class="metodo-card reveal">
+          <span class="metodo-step">04</span>
+          <h3 data-i18n="metodo-4-h3">Coherencia</h3>
+          <span class="metodo-label" data-i18n="metodo-4-label">— CÓMO VIVES</span>
+          <p data-i18n="metodo-4-p">Integramos todo en tu vida real para que el cambio no sea momentáneo.</p>
+        </div>
+      </div>
+      <p class="metodo-test" data-i18n="metodo-test">”No necesitaba más información… necesitaba entender qué me estaba pasando. En pocas semanas dejé de sentirme perdida y empecé a tomar decisiones con claridad.”</p>
+      <p class="metodo-subBold" data-i18n="metodo-subBold">Si te viste en esto… necesitas empezar a trabajar en ti de verdad.</p>
+    </div>
+  </section>
+
+  <!-- ══ SOBRE MÍ ══ -->
+  <section id="sobre-mi" class="sobre-mi">
+    <div class="sobre-photo">
+      <img src="/propuesta-2/images/soyelena.webp" alt="Elena — SoHuman" loading="eager" fetchpriority="high" />
+    </div>
+    <div class="sobre-text">
+      <p class="overline" data-i18n="sobre-overline">Sobre mí</p>
+      <h2 data-i18n="sobre-h2">Soy Elena.</h2>
+      <div class="sobre-bio">
+        <p data-i18n="sobre-p1"></p>
+        <p data-i18n="sobre-p2"></p>
+        <p data-i18n="sobre-p3"></p>
+        <p data-i18n="sobre-p4"></p>
+        <p data-i18n="sobre-p5"></p>
+        <p data-i18n="sobre-p6"></p>
+        <p data-i18n="sobre-p7"></p>
+        <p data-i18n="sobre-p8"></p>
+        <p data-i18n="sobre-p9"></p>
+        <p data-i18n="sobre-p10"></p>
+        <p data-i18n="sobre-p11"></p>
+        <p data-i18n="sobre-p12"></p>
+      </div>
+        <button class="btn btn-primary apply-trigger" data-i18n="sobre-btn">Aplicar a mentoría privada</button>
+    </div>
+  </section>
+
+  <!-- ══ RECURSOS ══ -->
+  <section id="recursos" class="section recursos">
+    <div class="container">
+      <p class="overline overline--light" data-i18n="recursos-overline">Un recurso para empezar a tu ritmo.</p>
+      <div class="recursos__ornament" aria-hidden="true">
+        <span></span>
+        <svg viewBox="0 0 24 24" fill="none">
+          <circle cx="12" cy="12" r="3" fill="currentColor"/>
+          <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+        </svg>
+        <span></span>
+      </div>
+      <h2 data-i18n="recursos-h2">Empieza aquí tu proceso</h2>
+      <div class="ebooks-grid">
+        <article class="ebook-card ebook-card--featured reveal">
+          <div class="ebook-hero">
+            <img src="/propuesta-2/images/workbook-soltar.webp" alt="Soltar para Expandirte" data-i18n-src="ebook-1-cover-src" />
+          </div>
+          <div class="ebook-body">
+            <div class="ebook-body__main">
+              <div class="ebook-body__info">
+                <h3 data-i18n="ebook-1-h3">Soltar para Expandirte</h3>
+                <div class="ebook-ornament" aria-hidden="true">
+                  <span></span>
+                  <svg viewBox="0 0 10 10" fill="none" width="7" height="7"><circle cx="5" cy="5" r="2.5" fill="currentColor"/></svg>
+                  <span></span>
+                </div>
+                <p data-i18n="ebook-1-p">Un workbook para soltar patrones, creencias y heridas que siguen ocupando espacio dentro de ti, cerrar ciclos internos y abrirte a una nueva forma de pensar, sentir y vivir.</p>
+              </div>
+              <div class="ebook-body__cta">
+                <p class="ebook-price">$37 USD</p>
+                <button class="btn btn-primary servicio-info-trigger" data-servicio="ebook1" data-i18n="ebook-1-btn">Conoce más</button>
+              </div>
+            </div>
+            <div class="ebook-features">
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                <span data-i18n="ebook-1-feat1">Contenido profundo y transformador</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span data-i18n="ebook-1-feat2">Ejercicios prácticos para tu proceso</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <span data-i18n="ebook-1-feat3">Formato digital para siempre</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span data-i18n="ebook-1-feat4">Descarga inmediata después de comprar</span>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="ebook-card reveal">
+          <div class="ebook-hero ebook-hero--cover ebook-cover--terra">
+            <div class="ebook-cover__inner">
+              <span class="ebook-cover__label2" data-i18n="ebook-2-cover-label">PROGRAMA · 21 DÍAS</span>
+              <h4 class="ebook-cover__inner--dark" data-i18n="ebook-2-cover-h4">De automático<br>a presente</h4>
+              <div class="ebook-cover__line" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="ebook-body">
+            <div class="ebook-body__main">
+              <div class="ebook-body__info">
+                <h3 data-i18n="ebook-2-h3">De automático a presente</h3>
+                <div class="ebook-ornament" aria-hidden="true">
+                  <span></span>
+                  <svg viewBox="0 0 10 10" fill="none" width="7" height="7"><circle cx="5" cy="5" r="2.5" fill="currentColor"/></svg>
+                  <span></span>
+                </div>
+                <p data-i18n="ebook-2-p">Un proceso guiado para salir del piloto automático y empezar a vivir con intención.</p>
+              </div>
+              <div class="ebook-body__cta">
+                <p class="ebook-price">$127 USD</p>
+                <button class="btn btn-primary btn-sm servicio-info-trigger" data-servicio="ebook2" data-i18n="ebook-2-btn" onclick="openCheckout('De automático a presente','$127 USD');return false;">Comenzar mi proceso</button>
+              </div>
+            </div>
+            <div class="ebook-features">
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+                <span data-i18n="ebook-2-feat1">Proceso guiado paso a paso</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span data-i18n="ebook-2-feat2">21 días de práctica real</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                <span data-i18n="ebook-2-feat3">Formato digital para siempre</span>
+              </div>
+              <div class="ebook-feature">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="22" height="22"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                <span data-i18n="ebook-2-feat4">Acceso inmediato</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ══ SERVICIOS ══ -->
+  <section id="servicios" class="section servicios">
+    <div class="container">
+      <p class="overline overline--light" data-i18n="servicios-overline">Lo que ofrezco</p>
+      <h2 data-i18n="servicios-h2">Servicios</h2>
+    </div>
+    <div class="servicios-split">
+      <article class="servicio-panel servicio-panel--terra reveal">
+        <img class="servicio-deco" src="/propuesta-2/images/logo-icon.svg" alt="" aria-hidden="true" />
+        <div class="servicio-panel__content">
+          <h3 data-i18n="servicio-2-h3">Sesión de claridad</h3>
+          <p class="servicio-sub" data-i18n="servicio-2-sub">Para entender qué te está pasando y qué hacer ahora</p>
+          <ul class="servicio-list">
+            <li data-i18n="servicio-2-li1">No sabes por dónde empezar</li>
+            <li data-i18n="servicio-2-li2">Sientes que algo no está alineado</li>
+            <li data-i18n="servicio-2-li3">Necesitas dirección clara ya</li>
+          </ul>
+          <button class="btn btn-outline-light servicio-info-trigger" data-servicio="claridad" data-i18n="servicio-2-btn">→ Agendar sesión</button>
+        </div>
+      </article>
+      <article class="servicio-panel servicio-panel--dark reveal">
+        <img class="servicio-deco" src="/propuesta-2/images/logo-icon.svg" alt="" aria-hidden="true" />
+        <div class="servicio-panel__content">
+          <h3 data-i18n="servicio-1-h3">Mentoría privada</h3>
+          <p class="servicio-sub" data-i18n="servicio-1-sub">Para transformar tu identidad y sostener tu cambio</p>
+          <ul class="servicio-list">
+            <li data-i18n="servicio-1-li1">Ya sabes que necesitas un cambio real</li>
+            <li data-i18n="servicio-1-li2">Estás lista para dejar de vivir en automático</li>
+            <li data-i18n="servicio-1-li3">Quieres resultados sostenidos</li>
+          </ul>
+          <button class="btn btn-cream servicio-info-trigger" data-servicio="mentoria" data-i18n="servicio-1-btn">→ Aplicar a mentoría</button>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ══ AGENDAR ══ -->
+  <section id="agendar" class="section agendar">
+    <div class="container">
+      <p class="overline" data-i18n="agendar-overline">Agenda tu consultoría</p>
+      <h2 data-i18n="agendar-h2">Elijamos tu momento</h2>
+      <p class="section-desc" data-i18n="agendar-desc">Seleccioná el horario que mejor te quede para tu primera sesión de claridad.</p>
+
+      <div class="cal-mock reveal">
+        <div class="cal-mock__info">
+          <p class="cal-mock__session" data-i18n="cal-session">Sesión de Claridad</p>
+          <ul class="cal-mock__meta">
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" width="14" height="14"><circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M10 6v4l2.5 2.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              <span data-i18n="cal-duration">60 minutos</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="none" width="14" height="14"><rect x="2" y="5" width="12" height="10" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M14 9l4-2v6l-4-2V9z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              <span data-i18n="cal-format">Videollamada</span>
+            </li>
+          </ul>
+          <div class="cal-mock__divider"></div>
+          <p class="cal-mock__timezone" data-i18n="cal-timezone">🌎 América/Miami</p>
+        </div>
+        <div class="cal-mock__calendar">
+          <div class="cal-mock__month-nav">
+            <button class="cal-nav-btn">‹</button>
+            <span data-i18n="cal-month">Mayo 2026</span>
+            <button class="cal-nav-btn">›</button>
+          </div>
+          <div class="cal-mock__weekdays">
+            <span data-i18n="cal-mon">Lu</span><span data-i18n="cal-tue">Ma</span><span data-i18n="cal-wed">Mi</span><span data-i18n="cal-thu">Ju</span><span data-i18n="cal-fri">Vi</span><span data-i18n="cal-sat">Sá</span><span data-i18n="cal-sun">Do</span>
+          </div>
+          <div class="cal-mock__days">
+            <span></span><span></span><span></span><span></span>
+            <span class="cal-day">1</span><span class="cal-day">2</span><span class="cal-day">3</span>
+            <span class="cal-day">4</span><span class="cal-day cal-day--avail">5</span><span class="cal-day">6</span>
+            <span class="cal-day cal-day--avail">7</span><span class="cal-day">8</span><span class="cal-day">9</span><span class="cal-day">10</span>
+            <span class="cal-day">11</span><span class="cal-day cal-day--avail cal-day--sel">12</span><span class="cal-day">13</span>
+            <span class="cal-day cal-day--avail">14</span><span class="cal-day">15</span><span class="cal-day">16</span><span class="cal-day">17</span>
+            <span class="cal-day">18</span><span class="cal-day cal-day--avail">19</span><span class="cal-day">20</span>
+            <span class="cal-day cal-day--avail">21</span><span class="cal-day">22</span><span class="cal-day">23</span><span class="cal-day">24</span>
+            <span class="cal-day">25</span><span class="cal-day cal-day--avail">26</span><span class="cal-day">27</span>
+            <span class="cal-day cal-day--avail">28</span><span class="cal-day">29</span><span class="cal-day">30</span><span class="cal-day">31</span>
+          </div>
+        </div>
+        <div class="cal-mock__slots">
+          <p class="cal-mock__date-label" data-i18n="cal-date-label">Martes, 12 de mayo</p>
+          <div class="cal-mock__slot-list">
+            <button class="cal-slot">9:00 AM</button>
+            <button class="cal-slot">10:00 AM</button>
+            <button class="cal-slot cal-slot--sel">11:00 AM</button>
+            <button class="cal-slot">2:00 PM</button>
+            <button class="cal-slot">3:00 PM</button>
+            <button class="cal-slot">4:00 PM</button>
+          </div>
+          <button class="btn btn-primary cal-mock__cta" data-i18n="cal-cta" onclick="openCheckout('Sesión de Claridad','','session')">
+            Agendar sesión →
+          </button>
+          <a href="" target="_blank" rel="noopener noreferrer" class="cal-mock__wa-link" data-i18n="cal-wa">
+            ¿Preguntas? Escríbeme por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ══ CTA FINAL ══ -->
+  <section class="section section--final" id="cta-final">
+      <div class="container final__inner">
+          <h2 class="final__h">
+              <span class="final__h-line final__h-line--top" data-i18n="final-line-top">Puedes seguir igual…</span>
+              <span class="final__h-line final__h-line--mid" data-i18n="final-line-mid">o empezar a convertirte</span>
+              <span class="final__h-line final__h-line--bot" data-i18n="final-line-bot">
+        <em>en quien realmente eres.</em>
+      </span>
+          </h2>
+          <div class="final__ornament" aria-hidden="true">
+              <span></span>
+              <svg viewBox="0 0 24 24" fill="none">
+                  <circle cx="12" cy="12" r="3" fill="currentColor"/>
+                  <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="0.8" opacity="0.5"/>
+              </svg>
+              <span></span>
+          </div>
+
+          <button class="btn btn--cream btn--lg apply-trigger" data-i18n="final-btn">Aplicar a mentoría privada</button>
+          <p class="final__note" data-i18n="final-note">Aplicación breve. Te respondo personalmente</p>
+      </div>
+  </section>
+
+  <!-- ══ FOOTER ══ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="/propuesta-2/images/logo-cream.webp" alt="SoHuman" class="footer-logo" />
+        <p>hola@elenasohuman.com</p>
+      </div>
+      <nav class="footer-nav">
+        <a href="#metodo" data-i18n="nav-metodo">Método</a>
+        <a href="#servicios" data-i18n="nav-mentoria">Mentoría</a>
+        <a href="#recursos" data-i18n="nav-recursos">Recursos</a>
+        <a href="#sobre-mi" data-i18n="nav-sobre">Sobre mí</a>
+        <a href="#agendar" data-i18n="nav-agendar">Agendar</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/elenasohuman" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general." data-wa-msg="wa-general" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p data-i18n="footer-copy">© 2026 SoHuman · elenasohuman.com</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ MODAL: INFO SERVICIO ══ -->
+  <div id="servicio-info-modal" class="modal-overlay modal-overlay--servicio-info" role="dialog" aria-modal="true">
+    <div class="modal-box modal-box--servicio-info">
+      <button class="modal-close" id="servicioInfoClose" aria-label="Cerrar">
+        <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+
+      <div class="servicio-info-cover" id="servicioInfoCover" style="display:none">
+        <img id="servicioInfoCoverImg" src="" alt="" />
+      </div>
+
+      <p class="overline overline--servicio-info" id="servicioInfoOverline"></p>
+      <p class="servicio-info-tagline" id="servicioInfoTagline"></p>
+
+      <p class="servicio-info-intro" id="servicioInfoIntro"></p>
+
+      <p class="servicio-info-body" id="servicioInfoBody"></p>
+
+      <p class="servicio-info-body" id="servicioInfoTransitions"></p>
+
+      <div class="servicio-info-section" id="servicioInfoSection1">
+        <h4 id="servicioInfoSection1Title"></h4>
+        <ul class="servicio-info-list" id="servicioInfoList1"></ul>
+      </div>
+
+      <div class="servicio-info-section" id="servicioInfoSection2">
+        <h4 id="servicioInfoSection2Title"></h4>
+        <ul class="servicio-info-list servicio-info-list--bullets" id="servicioInfoList2"></ul>
+      </div>
+
+      <p class="servicio-info-closing" id="servicioInfoClosing"></p>
+      <p class="servicio-info-for" id="servicioInfoFor"></p>
+
+      <button class="btn btn-primary btn-block servicio-info-cta" id="servicioInfoCta"></button>
+    </div>
+  </div>
+
+  <!-- ══ MODAL: APPLY ══ -->
+  <div id="apply-modal" class="modal-overlay modal-overlay--apply" role="dialog" aria-modal="true">
+    <div class="modal-box modal-box--apply">
+      <button class="modal-close" id="applyClose" aria-label="Cerrar">
+        <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <p class="overline overline--apply" data-i18n="apply-overline">— Aplicación a mentoría</p>
+      <h3 class="apply-title" data-i18n="apply-title">Cuéntame quién eres.</h3>
+      <p class="apply-sub" data-i18n="apply-sub">Recibirás respuesta en 24h.</p>
+
+      <form id="applyForm" class="apply-form">
+        <label class="apply-label">
+          <span data-i18n="apply-name">Nombre</span>
+          <input required type="text" name="name" placeholder="Tu nombre completo" data-i18n-placeholder="apply-name-placeholder" />
+        </label>
+        <label class="apply-label">
+          <span data-i18n="apply-email">Correo</span>
+          <input required type="email" name="email" placeholder="tu@correo.com" data-i18n-placeholder="apply-email-placeholder" />
+        </label>
+        <label class="apply-label">
+          <span data-i18n="apply-phone">Teléfono</span>
+          <input required type="tel" name="phone" id="applyPhone" data-i18n-placeholder="apply-phone-placeholder" />
+        </label>
+        <label class="apply-label">
+          <span data-i18n="apply-msg">¿Qué necesitas sostener ahora mismo?</span>
+          <textarea required rows="4" name="msg" placeholder="Cuéntame en pocas líneas dónde estás y qué buscas..." data-i18n-placeholder="apply-msg-placeholder"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary btn-block" data-i18n="apply-send">Enviar aplicación</button>
+        <p class="apply-fine" data-i18n="apply-fine">Tus datos se usan solo para responderte. No spam.</p>
+      </form>
+
+      <div id="applySuccess" class="apply-success" style="display:none">
+        <div class="apply-success__mark">✓</div>
+        <h4 data-i18n="apply-ok-t">Recibido.</h4>
+        <p data-i18n="apply-ok-s">Te escribiré desde <a href="mailto:hola@elenasohuman.com">hola@elenasohuman.com</a> en las próximas 24h.</p>
+        <p class="apply-ok-wa-text" data-i18n="apply-ok-wa-text">¿Prefieres que te contacte por WhatsApp?</p>
+        <div class="apply-success__buttons">
+          <button class="btn btn-whatsapp" id="applyWaBtn">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            <span data-i18n="apply-ok-wa-btn">Notifícame por WhatsApp</span>
+          </button>
+          <button class="btn btn-primary btn-close-modal" id="applySuccessClose" data-i18n="apply-ok-b">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ MODAL CHECKOUT ══ -->
+  <div id="checkout-modal" class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-box">
+      <button class="modal-close" onclick="closeCheckout()">
+        <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M5 5l10 10M15 5L5 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      </button>
+      <div id="modal-step-form">
+        <div class="modal-product-header">
+          <p class="modal-label" data-i18n="modal-label">Resumen del pedido</p>
+          <p id="modal-title" class="modal-product-name"></p>
+          <p id="modal-price" class="modal-product-price"></p>
+        </div>
+        <div class="stripe-form">
+          <label class="sf-label">
+            <span data-i18n="modal-email-label">Correo electrónico</span>
+            <input type="email" class="sf-input" placeholder="tu@email.com" />
+          </label>
+          <label class="sf-label">
+            <span data-i18n="modal-name-label">Nombre en la tarjeta</span>
+            <input type="text" class="sf-input" placeholder="Nombre completo" />
+          </label>
+          <label class="sf-label">
+            <span data-i18n="modal-card-label">Número de tarjeta</span>
+            <div class="sf-card-wrap">
+              <input type="text" class="sf-input" placeholder="1234  5678  9012  3456" maxlength="19" />
+              <span class="sf-card-icons">
+                <svg viewBox="0 0 38 24" width="28"><rect width="38" height="24" rx="4" fill="#1A1F71"/><rect x="14" y="7" width="10" height="10" rx="1" fill="#F7B600"/><path d="M19 7a5 5 0 000 10 5 5 0 000-10z" fill="#EB001B"/></svg>
+                <svg viewBox="0 0 38 24" width="28"><rect width="38" height="24" rx="4" fill="#f4f4f4"/><circle cx="15" cy="12" r="6" fill="#EB001B"/><circle cx="23" cy="12" r="6" fill="#F7B600" opacity=".85"/></svg>
+              </span>
+            </div>
+          </label>
+          <div class="sf-row">
+            <label class="sf-label">
+              <span data-i18n="modal-exp-label">Vencimiento</span>
+              <input type="text" class="sf-input" placeholder="MM / AA" maxlength="7" />
+            </label>
+            <label class="sf-label">
+              <span data-i18n="modal-cvc-label">CVC</span>
+              <input type="text" class="sf-input" placeholder="123" maxlength="3" />
+            </label>
+          </div>
+          <button class="btn btn-primary sf-pay-btn" onclick="simulatePay()">
+            <svg viewBox="0 0 20 20" fill="none" width="16" height="16"><rect x="2" y="5" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 9h16" stroke="currentColor" stroke-width="1.5"/></svg>
+            <span data-i18n="modal-pay-btn">Pagar ahora</span>
+          </button>
+          <p class="sf-secure" data-i18n="modal-secure">🔒 Pago seguro · Powered by Stripe</p>
+        </div>
+      </div>
+      <div id="modal-step-cal" class="modal-soon" style="display:none">
+        <div class="modal-soon__icon">✓</div>
+        <h3 data-i18n="modal-cal-h3">¡Pago procesado!</h3>
+        <p data-i18n="modal-cal-p">Ahora elige tu fecha y hora con Elena directamente en Cal.com.</p>
+        <a href="https://cal.com/elenasohuman" target="_blank" rel="noopener noreferrer" class="btn btn-primary" data-i18n="modal-cal-btn">Elegir fecha en Cal.com →</a>
+      </div>
+      <div id="modal-step-soon" class="modal-soon" style="display:none">
+        <div class="modal-soon__icon">✦</div>
+        <h3 data-i18n="modal-soon-h3">Próximamente</h3>
+        <p data-i18n="modal-soon-p">Los recursos digitales de SoHuman estarán disponibles muy pronto.</p>
+        <a href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0AMe%20interesa%20uno%20de%20tus%20recursos%20digitales." data-wa-msg="wa-recursos" target="_blank" class="btn btn-primary" data-i18n="modal-soon-btn">Avisarme por WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- WhatsApp flotante -->
+<a class="wa-float"
+   href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general."
+   data-wa-msg="wa-general"
+   target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="28" height="28" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+  
+  <script src="js/main.js"></script>
+ </body>
+ </html>
