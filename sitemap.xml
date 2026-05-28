@@ -2,7 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <!-- â”€â”€ PÃ¡gina principal (ES â€” canÃ³nica) â”€â”€ -->
   <url>
     <loc>https://elenasohuman.com/</loc>
     <xhtml:link rel="alternate" hreflang="es"        href="https://elenasohuman.com/"/>
@@ -13,7 +12,6 @@
     <priority>1.0</priority>
   </url>
 
-  <!-- â”€â”€ PÃ¡gina principal (EN) â”€â”€ -->
   <url>
     <loc>https://elenasohuman.com/?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="es"        href="https://elenasohuman.com/"/>
@@ -24,7 +22,6 @@
     <priority>0.9</priority>
   </url>
 
-  <!-- â”€â”€ Links / Linktree propio (ES â€” canÃ³nica) â”€â”€ -->
   <url>
     <loc>https://elenasohuman.com/links/</loc>
     <xhtml:link rel="alternate" hreflang="es"        href="https://elenasohuman.com/links/"/>
@@ -35,7 +32,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- â”€â”€ Links / Linktree propio (EN) â”€â”€ -->
   <url>
     <loc>https://elenasohuman.com/links/?lang=en</loc>
     <xhtml:link rel="alternate" hreflang="es"        href="https://elenasohuman.com/links/"/>
