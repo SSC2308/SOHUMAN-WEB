@@ -1049,10 +1049,15 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && applyModal.classList.contains('is-open')) closeApply();
 });
 
-// Abrir desde links page (?modal=apply)
-if (new URLSearchParams(window.location.search).get('modal') === 'apply') {
+// Abrir desde links page (?modal=apply|ebook1|mentoria|claridad)
+const _modalParam = new URLSearchParams(window.location.search).get('modal');
+if (_modalParam) {
   history.replaceState(null, '', window.location.pathname);
-  setTimeout(() => openApply(), 400);
+  if (_modalParam === 'apply') {
+    setTimeout(() => openApply(), 400);
+  } else if (['ebook1', 'ebook2', 'mentoria', 'claridad'].includes(_modalParam)) {
+    setTimeout(() => openServicioInfo(_modalParam), 400);
+  }
 }
 
 // ── Servicio info modal (reusable) ────
