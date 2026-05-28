@@ -134,8 +134,8 @@ const i18n = {
 
     // Hero
     'hero-overline':  'Mentoría privada',
-    'hero-h1':        'Volver a ti...<br><em>y sostenerlo</em><br>en la vida real.',
-    'hero-sub':       'Para mujeres que sienten que algo cambió... y no saben cómo sostenerse.',
+    'hero-h1':        'Tu expansión necesita una<br><em>nueva forma</em><br>de sostenerte.',
+    'hero-sub':       'Acompaño a mujeres en crecimiento a ordenar su identidad, su energía y sus decisiones para vivir con más claridad, coherencia y dirección interna.',
     'hero-btn1':      'Aplica a mentoría',
     'hero-btn2':      'Conoce más →',
 
@@ -222,9 +222,9 @@ const i18n = {
     'recursos-overline':  'Un recurso para empezar a tu ritmo.',
     'recursos-h2':        'Empieza aquí tu proceso',
     'ebook-1-label':      'Workbook',
-    'ebook-1-cover-src':  '/images/workbook-soltar.webp',
+    'ebook-1-cover-src':  'images/workbook-soltar.webp',
     'ebook-1-h3':         'Soltar para Expandirte',
-    'ebook-1-p':          'Un workbook para soltar patrones, creencias y heridas que siguen ocupando espacio dentro de ti, cerrar ciclos internos y abrirte a una nueva forma de pensar, sentir y vivir.',
+    'ebook-1-p':          'Un workbook de <strong><em>6 días</em></strong> para soltar patrones, creencias y heridas que siguen ocupando espacio dentro de ti, y abrirte a más paz, enfoque y expansión.',
     'ebook-1-btn':        'Conoce más',
     'ebook-1-feat1':      'Contenido profundo y transformador',
     'ebook-1-feat2':      'Ejercicios prácticos para tu proceso',
@@ -252,20 +252,37 @@ const i18n = {
     'footer-copy':  '© 2026 SoHuman · elenasohuman.com',
 
     // Modal
-    'modal-label':       'Resumen del pedido',
     'modal-email-label': 'Correo electrónico',
-    'modal-name-label':  'Nombre en la tarjeta',
-    'modal-card-label':  'Número de tarjeta',
-    'modal-exp-label':   'Vencimiento',
-    'modal-cvc-label':   'CVC',
-    'modal-pay-btn':     'Pagar ahora',
-    'modal-secure':      '🔒 Pago seguro · Powered by Stripe',
+    'modal-badge':         '⚡ ACCESO INMEDIATO',
+    'modal-pay-btn':       'OBTENER ACCESO INMEDIATO',
+    'modal-secure':        'Pago seguro · Powered by Stripe',
+    'modal-email-heading': 'Ingresa tu correo para continuar',
+    'modal-email-sub':     'Te enviaremos el acceso a tu compra y actualizaciones importantes.',
+    'modal-privacy':       'No compartimos tu información. Sin spam.',
+    'modal-onetime':       'Pago único · Acceso inmediato · Sin suscripción',
+    'modal-more-btn':      'Más formas de pago →',
+    'trust-1-title':       'Acceso inmediato',
+    'trust-1-sub':         'Empieza hoy mismo',
+    'trust-2-title':       'Pago seguro',
+    'trust-2-sub':         'Con Stripe',
     'modal-cal-h3':      '¡Pago procesado!',
     'modal-cal-p':       'Ahora elige tu fecha y hora con Elena directamente en Cal.com.',
     'modal-cal-btn':     'Elegir fecha en Cal.com →',
     'modal-soon-h3':     'Próximamente',
     'modal-soon-p':      'Los recursos digitales de SoHuman estarán disponibles muy pronto.',
     'modal-soon-btn':    'Avisarme por WhatsApp',
+    'modal-continue-btn':  'Continuar →',
+    'modal-change-email':  'Cambiar',
+    'modal-quick-pay':     'Pago rápido',
+    'modal-or-card':       'O paga con tarjeta',
+    'modal-error-email':   'Por favor ingresa un correo válido.',
+    'modal-error-general': 'Ocurrió un error. Por favor intenta de nuevo.',
+    'modal-success-h3':    '¡Pago exitoso!',
+    'modal-success-p':     'Gracias por tu compra. Hemos enviado el enlace de descarga a tu correo.',
+    'modal-success-sent':  'Enviado',
+    'modal-success-tip-t': '¿No ves el correo?',
+    'modal-success-tip-p': 'Revisa spam o promociones. Si necesitas ayuda, <a href="mailto:hola@elenasohuman.com" class="suc-link">escríbenos</a>.',
+    'modal-success-btn':   'CERRAR',
 
     // Apply form
     'apply-overline': '— Aplicación a mentoría',
@@ -302,8 +319,8 @@ const i18n = {
 
     // Hero
     'hero-overline':  'Private mentoring',
-    'hero-h1':        'Reconnect with yourself...<br><em>and make it last</em><br>in real life.',
-    'hero-sub':       'For women who feel something has changed... and don\'t know how to hold it.',
+    'hero-h1':        'Your expansion needs<br><em>a new way</em><br>to sustain itself.',
+    'hero-sub':       'I support growing women in organizing their identity, energy, and decisions to live with greater clarity, coherence, and inner direction.',
     'hero-btn1':      'Apply to mentorship',
     'hero-btn2':      'Learn more →',
 
@@ -390,9 +407,9 @@ const i18n = {
     'recursos-overline':  'A resource to start at your own pace.',
     'recursos-h2':        'Start your process here',
     'ebook-1-label':      'Workbook',
-    'ebook-1-cover-src':  '/images/letgoworkbook.webp',
+    'ebook-1-cover-src':  'images/ebookeng.webp',
     'ebook-1-h3':         'Release to Expand',
-    'ebook-1-p':          'A workbook to release patterns, beliefs, and wounds that still occupy space within you, close internal cycles, and open yourself to a new way of thinking, feeling, and living.',
+    'ebook-1-p':          'A&nbsp;<strong><em>6-day</em></strong>&nbsp; workbook to release patterns, beliefs, and wounds that still occupy space within you, and open yourself to more peace, focus, and expansion.',
     'ebook-1-btn':        'Learn more',
     'ebook-1-feat1':      'Deep, transformative content',
     'ebook-1-feat2':      'Practical exercises for your process',
@@ -420,20 +437,37 @@ const i18n = {
     'footer-copy':  '© 2026 SoHuman · elenasohuman.com',
 
     // Modal
-    'modal-label':       'Order summary',
     'modal-email-label': 'Email address',
-    'modal-name-label':  'Name on card',
-    'modal-card-label':  'Card number',
-    'modal-exp-label':   'Expiry',
-    'modal-cvc-label':   'CVC',
-    'modal-pay-btn':     'Pay now',
-    'modal-secure':      '🔒 Secure payment · Powered by Stripe',
+    'modal-badge':         '⚡ INSTANT ACCESS',
+    'modal-pay-btn':       'GET INSTANT ACCESS',
+    'modal-secure':        'Secure payment · Powered by Stripe',
+    'modal-email-heading': 'Enter your email to continue',
+    'modal-email-sub':     'We\'ll send your purchase access and important updates.',
+    'modal-privacy':       'We never share your info. No spam.',
+    'modal-onetime':       'One-time payment · Instant access · No subscription',
+    'modal-more-btn':      'More payment options →',
+    'trust-1-title':       'Instant access',
+    'trust-1-sub':         'Start today',
+    'trust-2-title':       'Secure payment',
+    'trust-2-sub':         'Powered by Stripe',
     'modal-cal-h3':      'Payment processed!',
     'modal-cal-p':       'Now choose your date and time with Elena directly on Cal.com.',
     'modal-cal-btn':     'Choose date on Cal.com →',
     'modal-soon-h3':     'Coming soon',
     'modal-soon-p':      'SoHuman\'s digital resources will be available very soon.',
     'modal-soon-btn':    'Notify me on WhatsApp',
+    'modal-continue-btn':  'Continue →',
+    'modal-change-email':  'Change',
+    'modal-quick-pay':     'Quick payment',
+    'modal-or-card':       'Or pay with card',
+    'modal-error-email':   'Please enter a valid email address.',
+    'modal-error-general': 'Something went wrong. Please try again.',
+    'modal-success-h3':    'Payment successful!',
+    'modal-success-p':     'Thank you for your purchase. We\'ve sent your download link to your email.',
+    'modal-success-sent':  'Sent',
+    'modal-success-tip-t': 'Can\'t find the email?',
+    'modal-success-tip-p': 'Check your spam or promotions folder. Need help? <a href="mailto:hello@elenasohuman.com" class="suc-link">Write to us</a>.',
+    'modal-success-btn':   'CLOSE',
 
     // Apply form
     'apply-overline': '— Mentoring application',
@@ -493,22 +527,238 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
   btn.addEventListener('click', () => applyLang(btn.dataset.lang));
 });
 
-// Apply default language on load so i18n innerHTML (with <em> etc.) renders immediately
-applyLang('es');
+// Apply language: prefer ?lang= URL param, fallback to 'es'
+const _urlParams = new URLSearchParams(window.location.search);
+const _urlLang   = _urlParams.get('lang');
+if (_urlLang === 'en' || _urlLang === 'es') {
+  // Strip only the lang param, keep any other params (e.g. ?modal=apply)
+  _urlParams.delete('lang');
+  const _remaining = _urlParams.toString();
+  history.replaceState(null, '', window.location.pathname + (_remaining ? '?' + _remaining : '') + window.location.hash);
+}
+applyLang(_urlLang === 'en' ? 'en' : 'es');
 
-// ── Checkout modal ─────────────────────
+// ── Stripe checkout ────────────────────
+const STRIPE_PK  = 'pk_test_51TbTxiKoRL1wkNvR9igq8QpjAUlkmPl26wXsijHqxSKR19x8Vto14KwfQ7iocdzyxaZbUIrV3FX7aEEE3r15Rx4k009kXo3PA3';
+const WORKER_URL = 'https://api.elenasohuman.com/create-payment-intent';
+
+const PRODUCTS = {
+  ebook1: {
+    name:    { es: 'Soltar para Expandirte', en: 'Let Go to Grow' },
+    desc:    { es: 'Un programa digital para soltar lo que ya no te sirve y vivir con más claridad, libertad y propósito.', en: 'A digital program to release what no longer serves you and live with more clarity, freedom and purpose.' },
+    price:   '$37 USD',
+    priceId: 'price_1TbTzVKoRL1wkNvRKcSHwEbL',
+    image:   { es: 'images/soltarmodal.webp', en: 'images/ebookmodaleng.webp' },
+  },
+  ebook2: {
+    name:    { es: 'De automático a presente', en: 'From Autopilot to Present' },
+    desc:    { es: 'Programa digital de 21 días para salir del piloto automático y reconectar contigo.', en: '21-day digital program to break autopilot patterns and reconnect with yourself.' },
+    price:   '$127 USD',
+    priceId: 'price_1TbU37KoRL1wkNvR7Vupwpi0',
+    image:   { es: 'images/soltarmodal.webp', en: 'images/ebookmodaleng.webp' },
+  },
+};
+
+let stripe          = null;
+let stripeElements  = null;
+let stripePaymentEl = null;
+let currentPriceId  = null;
+let currentEmail    = '';
+
+function ensureStripe() {
+  if (stripe) return Promise.resolve(stripe);
+  if (typeof Stripe !== 'undefined') {
+    stripe = Stripe(STRIPE_PK);
+    return Promise.resolve(stripe);
+  }
+  return new Promise((resolve, reject) => {
+    const existing = document.querySelector('script[src*="js.stripe.com"]');
+    if (existing) {
+      existing.addEventListener('load', () => { stripe = Stripe(STRIPE_PK); resolve(stripe); });
+      existing.addEventListener('error', () => reject(new Error('No se pudo cargar Stripe.')));
+      return;
+    }
+    const s = document.createElement('script');
+    s.src = 'https://js.stripe.com/v3/';
+    s.onload = () => { stripe = Stripe(STRIPE_PK); resolve(stripe); };
+    s.onerror = () => reject(new Error('No se pudo cargar Stripe.'));
+    document.head.appendChild(s);
+  });
+}
+
+function getStripe() {
+  if (!stripe) {
+    if (typeof Stripe === 'undefined') throw new Error('Stripe no cargó. Recarga la página.');
+    stripe = Stripe(STRIPE_PK);
+  }
+  return stripe;
+}
+
+const STRIPE_APPEARANCE = {
+  theme: 'flat',
+  variables: {
+    colorPrimary:       '#AF4828',
+    colorBackground:    '#ffffff',
+    colorText:          '#272727',
+    colorTextSecondary: '#777777',
+    colorDanger:        '#AF4828',
+    colorIconCardError: '#AF4828',
+    fontFamily:         '"Montserrat", sans-serif',
+    fontSizeBase:       '14px',
+    spacingUnit:        '5px',
+    borderRadius:       '8px',
+  },
+  rules: {
+    '.Input': {
+      border: '1.5px solid #e5ddd6',
+      backgroundColor: '#faf8f6',
+      boxShadow: 'none',
+      padding: '10px 12px',
+    },
+    '.Input:focus': {
+      border: '1.5px solid #c4975a',
+      boxShadow: 'none',
+      outline: 'none',
+    },
+    '.Input--invalid': {
+      border: '1.5px solid #AF4828',
+    },
+    '.Label': {
+      fontSize: '10px',
+      fontWeight: '600',
+      color: '#999',
+      letterSpacing: '0.08em',
+      textTransform: 'uppercase',
+      marginBottom: '5px',
+    },
+    '.Tab': {
+      border: '1.5px solid #e5ddd6',
+      backgroundColor: '#faf8f6',
+      boxShadow: 'none',
+      padding: '10px 16px',
+    },
+    '.Tab:hover':          { backgroundColor: '#F4EAE4', border: '1.5px solid #d4c4bc' },
+    '.Tab--selected':      { border: '1.5px solid #AF4828', backgroundColor: '#fff', boxShadow: 'none' },
+    '.TabLabel':           { color: '#555', fontSize: '13px' },
+    '.TabLabel--selected': { color: '#AF4828', fontWeight: '600' },
+    '.TabIcon--selected':  { fill: '#AF4828' },
+    '.Block':              { backgroundColor: '#faf8f6', border: '1.5px solid #e5ddd6', borderRadius: '8px' },
+  },
+};
+
+let stripeExpressEl = null;
+
+function handlePaymentSuccess() {
+  const sucEmail = document.getElementById('suc-email-display');
+  if (sucEmail) sucEmail.textContent = currentEmail;
+  document.getElementById('modal-step-form').style.display    = 'none';
+  document.getElementById('modal-step-success').style.display = 'block';
+  checkoutModal.querySelector('.modal-box').scrollTop = 0;
+  destroyPaymentEl();
+}
+
+function destroyPaymentEl() {
+  if (stripeExpressEl)  { stripeExpressEl.destroy();  stripeExpressEl  = null; }
+  if (stripePaymentEl)  { stripePaymentEl.destroy();  stripePaymentEl  = null; }
+  stripeElements = null;
+}
+
+async function mountPaymentElement(clientSecret) {
+  destroyPaymentEl();
+  const s = await ensureStripe();
+  stripeElements = s.elements({ appearance: STRIPE_APPEARANCE, clientSecret, locale: currentLang });
+
+  // ── Express Checkout Element (Google Pay / Apple Pay) ──
+  stripeExpressEl = stripeElements.create('expressCheckout', {
+    buttonType:      { googlePay: 'pay', applePay: 'buy' },
+    buttonHeight:    48,
+    layout:          { maxColumns: 1, maxRows: 1 },
+    paymentMethods:  { link: 'never', amazonPay: 'never' },
+  });
+
+  const expressSection = document.getElementById('co-express-section');
+  const errEl          = document.getElementById('stripe-card-errors');
+
+  stripeExpressEl.on('ready', ({ availablePaymentMethods }) => {
+    const hasWallets = availablePaymentMethods &&
+      Object.values(availablePaymentMethods).some(Boolean);
+    if (expressSection) expressSection.style.display = hasWallets ? 'block' : 'none';
+  });
+
+  stripeExpressEl.on('confirm', async () => {
+    try {
+      const { error, paymentIntent } = await s.confirmPayment({
+        elements: stripeElements,
+        confirmParams: {
+          return_url: 'https://elenasohuman.com?pago=exitoso',
+          payment_method_data: { billing_details: { email: currentEmail } },
+        },
+        redirect: 'if_required',
+      });
+      if (error) throw new Error(error.message);
+      if (paymentIntent?.status === 'succeeded') handlePaymentSuccess();
+    } catch (err) {
+      if (errEl) errEl.textContent = err.message || i18n[currentLang]['modal-error-general'];
+    }
+  });
+
+  stripeExpressEl.mount('#express-checkout-element');
+
+  // ── Payment Element (solo tarjeta, sin wallets) ──
+  stripePaymentEl = stripeElements.create('payment', {
+    layout: { type: 'tabs', defaultCollapsed: false },
+    fields: { billingDetails: { email: 'never' } },
+    defaultValues: { billingDetails: { email: currentEmail } },
+    wallets: { applePay: 'never', googlePay: 'never', link: 'never' },
+  });
+
+  const payBtn = document.getElementById('stripe-pay-btn');
+  payBtn.disabled = true;
+  stripePaymentEl.on('ready', () => { payBtn.disabled = false; });
+  stripePaymentEl.mount('#payment-element');
+}
+
 const checkoutModal = document.getElementById('checkout-modal');
-let checkoutType = 'ebook';
 
-function openCheckout(product, price, type = 'ebook') {
-  checkoutType = type;
-  document.getElementById('modal-title').textContent = product;
-  const priceEl = document.getElementById('modal-price');
-  priceEl.textContent = price;
-  priceEl.style.display = price ? 'block' : 'none';
-  document.getElementById('modal-step-form').style.display = 'block';
-  document.getElementById('modal-step-soon').style.display = 'none';
-  document.getElementById('modal-step-cal').style.display = 'none';
+function openCheckout(productKey) {
+  const product = PRODUCTS[productKey];
+  if (!product) return;
+  currentPriceId = product.priceId;
+  currentEmail   = '';
+
+  document.getElementById('modal-title').textContent = product.name[currentLang] || product.name.es;
+  const descEl = document.getElementById('modal-desc');
+  if (descEl) descEl.textContent = (product.desc?.[currentLang] || product.desc?.es || '');
+  document.getElementById('modal-price').textContent  = product.price;
+  document.getElementById('modal-price').style.display = 'block';
+  const badgeEl = document.querySelector('#modal-step-form .co-badge');
+  if (badgeEl) badgeEl.textContent = i18n[currentLang]['modal-badge'] || '⚡ ACCESO INMEDIATO';
+  const imgEl = document.getElementById('modal-product-img');
+  if (imgEl) {
+    const imgSrc = product.image?.[currentLang] || product.image?.es || '';
+    imgEl.src = imgSrc;
+    imgEl.style.display = imgSrc ? 'block' : 'none';
+  }
+  document.getElementById('checkout-email').value     = '';
+  document.getElementById('stripe-card-errors').textContent = '';
+
+  // Reset to email step
+  document.getElementById('sf-step-email').style.display   = 'block';
+  document.getElementById('sf-step-payment').style.display = 'none';
+  resetContinueBtn();
+
+  document.getElementById('modal-step-form').style.display    = 'block';
+  document.getElementById('modal-step-soon').style.display    = 'none';
+  document.getElementById('modal-step-cal').style.display     = 'none';
+  document.getElementById('modal-step-success').style.display = 'none';
+  checkoutModal.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+  checkoutModal.querySelector('.modal-box').scrollTop = 0;
+}
+
+function openSessionCalendar() {
+  document.getElementById('modal-step-form').style.display = 'none';
+  document.getElementById('modal-step-cal').style.display  = 'block';
   checkoutModal.classList.add('is-open');
   document.body.style.overflow = 'hidden';
   checkoutModal.querySelector('.modal-box').scrollTop = 0;
@@ -517,19 +767,157 @@ function openCheckout(product, price, type = 'ebook') {
 function closeCheckout() {
   checkoutModal.classList.remove('is-open');
   document.body.style.overflow = '';
+  destroyPaymentEl();
 }
 
-function simulatePay() {
-  document.getElementById('modal-step-form').style.display = 'none';
-  if (checkoutType === 'session') {
-    document.getElementById('modal-step-cal').style.display = 'block';
-  } else {
-    document.getElementById('modal-step-soon').style.display = 'block';
-  }
+function resetContinueBtn() {
+  const btn = document.getElementById('sf-continue-btn');
+  btn.disabled = false;
+  btn.innerHTML = `<span>${i18n[currentLang]['modal-continue-btn'] || 'Continuar →'}</span>`;
 }
+
+function resetPayBtn() {
+  const btn = document.getElementById('stripe-pay-btn');
+  btn.disabled = false;
+  btn.innerHTML = `
+    <svg viewBox="0 0 20 20" fill="none" width="16" height="16"><rect x="2" y="5" width="16" height="12" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M2 9h16" stroke="currentColor" stroke-width="1.5"/></svg>
+    <span>${i18n[currentLang]['modal-pay-btn'] || 'OBTENER ACCESO INMEDIATO'}</span>`;
+}
+
+// Step 1 — validar email y crear PaymentIntent
+document.getElementById('sf-continue-btn').addEventListener('click', async () => {
+  const email = document.getElementById('checkout-email').value.trim();
+  const errEl = document.getElementById('stripe-card-errors');
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    errEl.textContent = i18n[currentLang]['modal-error-email'] || 'Por favor ingresa un correo válido.';
+    return;
+  }
+
+  currentEmail = email;
+  errEl.textContent = '';
+  const btn = document.getElementById('sf-continue-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="sf-spinner"></span>';
+
+  try {
+    const res  = await fetch(WORKER_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ priceId: currentPriceId, customerEmail: email, lang: currentLang }),
+    });
+    const text = await res.text();
+    let data   = {};
+    try { data = JSON.parse(text); } catch { /* */ }
+
+    if (!data.clientSecret) throw new Error(data.error || `HTTP ${res.status}`);
+
+    await mountPaymentElement(data.clientSecret);
+
+    document.getElementById('sf-email-display').textContent = email;
+    document.getElementById('sf-step-email').style.display   = 'none';
+    document.getElementById('sf-step-payment').style.display = 'block';
+    resetPayBtn();
+    checkoutModal.querySelector('.modal-box').scrollTop = 0;
+
+  } catch (err) {
+    console.error('[checkout]', err);
+    errEl.textContent = i18n[currentLang]['modal-error-general'] || 'Ocurrió un error. Por favor intenta de nuevo.';
+    resetContinueBtn();
+  }
+});
+
+// Cambiar email — vuelve al paso 1
+document.getElementById('sf-change-email').addEventListener('click', () => {
+  destroyPaymentEl();
+  document.getElementById('stripe-card-errors').textContent = '';
+  document.getElementById('sf-step-payment').style.display = 'none';
+  document.getElementById('sf-step-email').style.display   = 'block';
+  resetContinueBtn();
+});
+
+// Step 2 — confirmar pago
+document.getElementById('stripe-pay-btn').addEventListener('click', async () => {
+  const errEl = document.getElementById('stripe-card-errors');
+  const btn   = document.getElementById('stripe-pay-btn');
+  btn.disabled = true;
+  btn.innerHTML = '<span class="sf-spinner"></span>';
+  errEl.textContent = '';
+
+  try {
+    const s = await ensureStripe();
+    const { error, paymentIntent } = await s.confirmPayment({
+      elements: stripeElements,
+      confirmParams: {
+        return_url: 'https://elenasohuman.com?pago=exitoso',
+        payment_method_data: { billing_details: { email: currentEmail } },
+      },
+      redirect: 'if_required',
+    });
+
+    if (error) throw new Error(error.message);
+
+    if (paymentIntent && paymentIntent.status === 'succeeded') {
+      handlePaymentSuccess();
+    }
+  } catch (err) {
+    console.error('[checkout]', err);
+    errEl.textContent = err.message || i18n[currentLang]['modal-error-general'] || 'Ocurrió un error. Por favor intenta de nuevo.';
+    resetPayBtn();
+  }
+});
+
+document.querySelectorAll('.ebook-buy-btn').forEach(btn => {
+  btn.addEventListener('click', () => openCheckout(btn.dataset.productKey));
+});
+
+document.getElementById('stripe-more-btn')?.addEventListener('click', async () => {
+  const btn    = document.getElementById('stripe-more-btn');
+  const errEl  = document.getElementById('stripe-card-errors');
+  btn.disabled = true;
+  btn.textContent = '…';
+  errEl.textContent = '';
+  try {
+    const res  = await fetch('https://api.elenasohuman.com/create-checkout-session', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ priceId: currentPriceId, customerEmail: currentEmail, lang: currentLang }),
+    });
+    const text = await res.text();
+    let data = {};
+    try { data = JSON.parse(text); } catch { /* */ }
+    if (!data.url) throw new Error(data.error || `HTTP ${res.status}`);
+    window.location.href = data.url;
+  } catch (err) {
+    errEl.textContent = i18n[currentLang]['modal-error-general'] || 'Ocurrió un error. Por favor intenta de nuevo.';
+    btn.disabled = false;
+    btn.textContent = i18n[currentLang]['modal-more-btn'] || 'Más formas de pago →';
+  }
+});
 
 checkoutModal.addEventListener('click', e => { if (e.target === checkoutModal) closeCheckout(); });
 document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCheckout(); });
+
+// ── Redireccion post-checkout Stripe ───
+if (new URLSearchParams(window.location.search).get('pago') === 'exitoso') {
+  const params  = new URLSearchParams(window.location.search);
+  const email   = params.get('email');
+  // Limpiar la URL sin recargar la página
+  history.replaceState(null, '', window.location.pathname);
+  // Mostrar email si viene en la URL
+  const sucEmailRow     = document.querySelector('.suc-email-row');
+  const sucEmailDisplay = document.getElementById('suc-email-display');
+  if (email && sucEmailDisplay) {
+    sucEmailDisplay.textContent = email;
+  } else if (sucEmailRow) {
+    sucEmailRow.style.display = 'none';
+  }
+  // Mostrar modal en paso de éxito
+  document.getElementById('modal-step-form').style.display    = 'none';
+  document.getElementById('modal-step-success').style.display = 'block';
+  checkoutModal.classList.add('is-open');
+  document.body.style.overflow = 'hidden';
+}
 
 // ── Apply modal ────────────────────────
 const applyModal = document.getElementById('apply-modal');
@@ -661,6 +1049,12 @@ document.addEventListener('keydown', e => {
   if (e.key === 'Escape' && applyModal.classList.contains('is-open')) closeApply();
 });
 
+// Abrir desde links page (?modal=apply)
+if (new URLSearchParams(window.location.search).get('modal') === 'apply') {
+  history.replaceState(null, '', window.location.pathname);
+  setTimeout(() => openApply(), 400);
+}
+
 // ── Servicio info modal (reusable) ────
 const servicioInfoModal = document.getElementById('servicio-info-modal');
 
@@ -736,7 +1130,7 @@ const servicioContent = {
     for:     { es: 'Soltar para Expandirte está creado para ayudarte a cerrar ciclos internos, crear más espacio dentro de ti y abrirte a una nueva forma de pensar, sentir y vivir.<br><br>Si sabes que ya no quieres seguir cargando lo que limita tu expansión, este es tu momento para empezar distinto.', en: 'Release to Expand is created to help you close internal cycles, create more space within you, and open yourself to a new way of thinking, feeling, and living.<br><br>If you know you no longer want to carry what limits your expansion, this is your moment to start differently.' },
     cta:     { es: 'Quiero empezar este proceso →', en: 'I want to start this process →' },
     ctaAction: 'ebook1',
-    cover: '/images/soltarmodal.webp',
+    cover: { es: 'images/soltarmodal.webp', en: 'images/ebookmodaleng.webp' },
   },
   claridad: {
     overline: { es: 'Sesión de claridad', en: 'Clarity session' },
@@ -770,7 +1164,7 @@ function renderServicioInfo(key) {
   const coverEl = document.getElementById('servicioInfoCover');
   const coverImg = document.getElementById('servicioInfoCoverImg');
   if (data.cover) {
-    coverImg.src = data.cover;
+    coverImg.src = typeof data.cover === 'object' ? data.cover[lang] : data.cover;
     coverEl.style.display = 'block';
   } else {
     coverEl.style.display = 'none';
@@ -817,13 +1211,23 @@ function renderServicioInfo(key) {
 function openServicioInfo(key) {
   renderServicioInfo(key);
   servicioInfoModal.classList.add('is-open');
-  document.body.style.overflow = 'hidden';
+  const scrollY = window.scrollY;
+  document.body.style.position = 'fixed';
+  document.body.style.top = `-${scrollY}px`;
+  document.body.style.width = '100%';
+  document.body.dataset.scrollY = scrollY;
+  lenis.stop();
   servicioInfoModal.querySelector('.modal-box').scrollTop = 0;
 }
 
 function closeServicioInfo() {
   servicioInfoModal.classList.remove('is-open');
-  document.body.style.overflow = '';
+  const scrollY = parseInt(document.body.dataset.scrollY || '0', 10);
+  document.body.style.position = '';
+  document.body.style.top = '';
+  document.body.style.width = '';
+  window.scrollTo(0, scrollY);
+  lenis.start();
   currentServicio = null;
 }
 
@@ -846,7 +1250,7 @@ document.getElementById('servicioInfoCta').addEventListener('click', () => {
   } else if (action === 'claridad') {
     setTimeout(() => lenis.scrollTo('#agendar', { offset: -72, duration: 1.2 }), 300);
   } else if (action === 'ebook1') {
-    setTimeout(() => openCheckout('Soltar para Expandirte', '$37 USD'), 300);
+    setTimeout(() => openCheckout('ebook1'), 300);
   }
 });
 
