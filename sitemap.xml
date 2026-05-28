@@ -16,10 +16,10 @@
   </url>
 
   <url>
-    <loc>https://elenasohuman.com/#sobre-mi</loc>
+    <loc>https://elenasohuman.com/#servicios</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
 
   <url>
@@ -30,10 +30,10 @@
   </url>
 
   <url>
-    <loc>https://elenasohuman.com/#servicios</loc>
+    <loc>https://elenasohuman.com/#sobre-mi</loc>
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
   </url>
 
   <url>
@@ -41,6 +41,13 @@
     <lastmod>2026-05-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://elenasohuman.com/links/</loc>
+    <lastmod>2026-05-28</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 
 </urlset>
