@@ -207,17 +207,6 @@ const i18n = {
     'agendar-overline': 'Agenda tu consultoría',
     'agendar-h2':       'Elijamos tu momento',
     'agendar-desc':     'Seleccioná el horario que mejor te quede para tu primera sesión de claridad.',
-    'cal-session':      'Sesión de Claridad',
-    'cal-duration':     '60 minutos',
-    'cal-format':       'Videollamada',
-    'cal-timezone':     '🌎 América/Miami',
-    'cal-month':        'Mayo 2026',
-    'cal-mon': 'Lu', 'cal-tue': 'Ma', 'cal-wed': 'Mi',
-    'cal-thu': 'Ju', 'cal-fri': 'Vi', 'cal-sat': 'Sá', 'cal-sun': 'Do',
-    'cal-date-label':   'Martes, 12 de mayo',
-    'cal-cta':          'Agendar sesión →',
-    'cal-wa':           '¿Preguntas? Escríbeme por WhatsApp',
-
     // Recursos
     'recursos-overline':  'Un recurso para empezar a tu ritmo.',
     'recursos-h2':        'Empieza aquí tu proceso',
@@ -265,9 +254,6 @@ const i18n = {
     'trust-1-sub':         'Empieza hoy mismo',
     'trust-2-title':       'Pago seguro',
     'trust-2-sub':         'Con Stripe',
-    'modal-cal-h3':      '¡Pago procesado!',
-    'modal-cal-p':       'Ahora elige tu fecha y hora con Elena directamente en Cal.com.',
-    'modal-cal-btn':     'Elegir fecha en Cal.com →',
     'modal-soon-h3':     'Próximamente',
     'modal-soon-p':      'Los recursos digitales de SoHuman estarán disponibles muy pronto.',
     'modal-soon-btn':    'Avisarme por WhatsApp',
@@ -392,16 +378,6 @@ const i18n = {
     'agendar-overline': 'Schedule your consultation',
     'agendar-h2':       'Let\'s find your moment',
     'agendar-desc':     'Select the time that works best for you for your first clarity session.',
-    'cal-session':      'Clarity Session',
-    'cal-duration':     '60 minutes',
-    'cal-format':       'Video call',
-    'cal-timezone':     '🌎 America/Miami',
-    'cal-month':        'May 2026',
-    'cal-mon': 'Mo', 'cal-tue': 'Tu', 'cal-wed': 'We',
-    'cal-thu': 'Th', 'cal-fri': 'Fr', 'cal-sat': 'Sa', 'cal-sun': 'Su',
-    'cal-date-label':   'Tuesday, May 12',
-    'cal-cta':          'Schedule session →',
-    'cal-wa':           'Questions? Message me on WhatsApp',
 
     // Recursos
     'recursos-overline':  'A resource to start at your own pace.',
@@ -450,9 +426,6 @@ const i18n = {
     'trust-1-sub':         'Start today',
     'trust-2-title':       'Secure payment',
     'trust-2-sub':         'Powered by Stripe',
-    'modal-cal-h3':      'Payment processed!',
-    'modal-cal-p':       'Now choose your date and time with Elena directly on Cal.com.',
-    'modal-cal-btn':     'Choose date on Cal.com →',
     'modal-soon-h3':     'Coming soon',
     'modal-soon-p':      'SoHuman\'s digital resources will be available very soon.',
     'modal-soon-btn':    'Notify me on WhatsApp',
@@ -749,20 +722,12 @@ function openCheckout(productKey) {
 
   document.getElementById('modal-step-form').style.display    = 'block';
   document.getElementById('modal-step-soon').style.display    = 'none';
-  document.getElementById('modal-step-cal').style.display     = 'none';
   document.getElementById('modal-step-success').style.display = 'none';
   checkoutModal.classList.add('is-open');
   document.body.style.overflow = 'hidden';
   checkoutModal.querySelector('.modal-box').scrollTop = 0;
 }
 
-function openSessionCalendar() {
-  document.getElementById('modal-step-form').style.display = 'none';
-  document.getElementById('modal-step-cal').style.display  = 'block';
-  checkoutModal.classList.add('is-open');
-  document.body.style.overflow = 'hidden';
-  checkoutModal.querySelector('.modal-box').scrollTop = 0;
-}
 
 function closeCheckout() {
   checkoutModal.classList.remove('is-open');
