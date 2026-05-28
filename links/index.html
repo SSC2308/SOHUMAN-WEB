@@ -170,6 +170,7 @@
     .ic-coral { background: var(--coral); }
     .ic-gold  { background: var(--gold); }
     .ic-dark  { background: var(--dark); }
+    .ic-wa    { background: #25A560; }
 
     .lbl {
       flex: 1;
@@ -291,6 +292,17 @@
       <span class="arr">↗</span>
     </a>
 
+    <a class="btn" id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general." target="_blank" rel="noopener">
+      <span class="ic ic-wa">
+        <svg viewBox="0 0 24 24" fill="#fff" xmlns="http://www.w3.org/2000/svg">
+          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+          <path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.554 4.103 1.523 5.824L.057 23.855a.5.5 0 0 0 .609.61l6.098-1.474A11.944 11.944 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.804 9.804 0 0 1-5.031-1.384l-.36-.214-3.733.902.934-3.641-.236-.374A9.789 9.789 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+        </svg>
+      </span>
+      <span class="lbl" data-i18n="btn-whatsapp"></span>
+      <span class="arr">↗</span>
+    </a>
+
   </nav>
 
 </div>
@@ -316,16 +328,20 @@
       'btn-website': 'Mi sitio web',
       'btn-mentoria':'Aplica a mentoría privada',
       'btn-sesion':  'Agenda una sesión',
+      'btn-whatsapp': 'Escríbeme por WhatsApp',
       'btn-ebook':   'Soltar para Expandirte',
       'footer-phrase':'Vive en coherencia, expande tu esencia.',
+      'wa-general':  'Hola Elena 🤍\n\nTengo una consulta general.',
     },
     en: {
       tagline:       'Connect with yourself, transform your life.',
       'btn-website': 'My website',
       'btn-mentoria':'Apply for private mentoring',
       'btn-sesion':  'Schedule a session',
+      'btn-whatsapp':'Message me on WhatsApp',
       'btn-ebook':   'Let Go to Expand',
       'footer-phrase':'Live in coherence, expand your essence.',
+      'wa-general':  'Hi Elena 🤍\n\nI have a general inquiry.',
     }
   };
 
@@ -352,6 +368,10 @@
 
     document.getElementById('btn-mentoria').href =
       '../index.html?modal=apply&lang=' + l;
+
+    document.getElementById('btn-whatsapp').href = l === 'en'
+      ? 'https://api.whatsapp.com/send?phone=17867372251&text=Hi%20Elena%20%F0%9F%A4%8D%0A%0AI%20have%20a%20general%20inquiry.'
+      : 'https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general.';
 
     document.getElementById('btn-ebook').href =
       '../index.html?modal=ebook1&lang=' + l;
