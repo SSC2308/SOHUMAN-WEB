@@ -677,61 +677,6 @@ h2 em { font-style: italic; color: var(--terra); }
 .agendar h2 { color: var(--text); margin-bottom: .5rem; }
 .agendar .section-desc { color: var(--text-muted); margin-bottom: 3rem; }
 
-/* Cal.com mock */
-.cal-mock {
-  display: grid; grid-template-columns: 1fr;
-  gap: 0;
-  max-width: 980px; margin: 0 auto;
-  background: var(--white);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-md);
-  overflow: hidden;
-}
-@media (min-width: 640px) {
-  .cal-mock { grid-template-columns: 200px 1fr; }
-  .cal-mock__slots { border-left: 1px solid rgba(179,145,96,.12); }
-}
-@media (min-width: 860px) {
-  .cal-mock { grid-template-columns: 200px 1fr 220px; }
-}
-.cal-mock__info {
-  padding: 2rem 1.5rem;
-  border-bottom: 1px solid rgba(179,145,96,.12);
-  display: flex; flex-direction: column; gap: .7rem;
-}
-@media (min-width: 640px) {
-  .cal-mock__info { border-bottom: none; border-right: 1px solid rgba(179,145,96,.12); }
-}
-.cal-mock__session { font-family: var(--ff-serif); font-size: 1.05rem; color: var(--text); font-weight: 600; margin: 0; }
-.cal-mock__meta { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: .45rem; }
-.cal-mock__meta li { display: flex; align-items: center; gap: .45rem; font-size: .78rem; color: var(--text-muted); }
-.cal-mock__divider { height: 1px; background: rgba(179,145,96,.12); }
-.cal-mock__timezone { font-size: .72rem; color: var(--text-muted); margin: 0; }
-.cal-mock__calendar { padding: 1.5rem; }
-.cal-mock__month-nav { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1.2rem; }
-.cal-mock__month-nav span { font-size: .88rem; font-weight: 600; color: var(--text); }
-.cal-nav-btn {
-  background: none; border: 1px solid rgba(179,145,96,.25); border-radius: 6px;
-  width: 28px; height: 28px; cursor: pointer; color: var(--text-muted);
-  font-size: 1rem; line-height: 1; transition: background .15s;
-}
-.cal-nav-btn:hover { background: var(--cream-light); }
-.cal-mock__weekdays { display: grid; grid-template-columns: repeat(7,1fr); margin-bottom: .5rem; }
-.cal-mock__weekdays span { font-size: .68rem; color: var(--text-muted); text-align: center; padding: .2rem 0; }
-.cal-mock__days { display: grid; grid-template-columns: repeat(7,1fr); gap: 2px; }
-.cal-day { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; font-size: .78rem; border-radius: 50%; color: rgba(45,37,32,.3); cursor: default; }
-.cal-day--avail { color: var(--text); cursor: pointer; font-weight: 500; }
-.cal-day--avail:hover { background: var(--cream-light); }
-.cal-day--sel { background: var(--gold) !important; color: #fff !important; font-weight: 700; }
-.cal-mock__slots { padding: 1.5rem; }
-.cal-mock__date-label { font-size: .82rem; font-weight: 600; color: var(--text); margin-bottom: 1rem; }
-.cal-mock__slot-list { display: flex; flex-direction: column; gap: .5rem; margin-bottom: 1.2rem; }
-.cal-slot { width: 100%; padding: .55rem 1rem; border: 1.5px solid rgba(179,145,96,.35); border-radius: 50px; background: none; font-size: .82rem; color: var(--text); cursor: pointer; text-align: center; transition: all .15s; }
-.cal-slot:hover { border-color: var(--gold); background: rgba(179,145,96,.07); }
-.cal-slot--sel { border-color: var(--gold); background: rgba(179,145,96,.12); font-weight: 600; }
-.cal-mock__cta { border-radius: 50px; width: 100%; text-align: center; font-size: .78rem; text-transform: none; letter-spacing: .04em; }
-.cal-mock__wa-link { display: block; font-size: .72rem; color: var(--text-muted); text-align: center; margin-top: .9rem; text-decoration: underline; text-underline-offset: 3px; }
-.cal-mock__wa-link:hover { color: var(--gold-dark); }
 
 /* 13. Recursos
 ─────────────────────────────────────── */
