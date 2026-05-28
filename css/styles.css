@@ -915,8 +915,16 @@ h4.ebook-cover__inner--dark { color: var(--cream); }
 .footer-social a { color: rgba(244,234,228,.35); transition: color .2s; }
 .footer-social a:hover { color: var(--cream); }
 .footer-bottom { padding: 1.2rem 0; }
+.footer-bottom .container { display: flex; flex-direction: column; align-items: center; gap: .6rem; }
 .footer-bottom p { font-size: .73rem; color: rgba(244,234,228,.22); text-align: center; }
-@media (min-width: 768px) { .footer-bottom p { text-align: left; } }
+.footer-legal { display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center; }
+.footer-legal a { font-size: .68rem; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: rgba(244,234,228,.2); transition: color .2s; }
+.footer-legal a:hover { color: rgba(244,234,228,.5); }
+@media (min-width: 768px) {
+  .footer-bottom .container { flex-direction: row; justify-content: space-between; align-items: center; }
+  .footer-bottom p { text-align: left; }
+  .footer-legal { justify-content: flex-end; }
+}
 
 /* 16. Reveal
 ─────────────────────────────────────── */
