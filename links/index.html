@@ -161,15 +161,14 @@
     .btn:active { transform: translateY(0); }
 
     .ic {
-      width: 56px;
-      height: 56px;
+      width: 42px;
+      height: 42px;
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
     }
-    .ic svg { width: 20px; height: 20px; }
     .ic img { width: 100%; height: 100%; object-fit: cover; }
 
     .lbl {
@@ -249,31 +248,31 @@
   <nav class="links">
 
     <a class="btn" id="btn-website" href="https://elenasohuman.com" target="_blank" rel="noopener">
-      <span class="ic"><img src="../images/icons/ic-globe.png" alt="" /></span>
+      <span class="ic"><img src="../images/icons/ic-globe.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-website"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
-    <a class="btn" id="btn-mentoria" href="../index.html?modal=apply">
-      <span class="ic"><img src="../images/icons/ic-mentoria.png" alt="" /></span>
+    <a class="btn" id="btn-mentoria" href="../index.html?modal=apply&lang=es">
+      <span class="ic"><img src="../images/icons/ic-mentoria.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-mentoria"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-sesion" href="https://cal.com/sohuman/sesionclaridad" target="_blank" rel="noopener">
-      <span class="ic"><img src="../images/icons/ic-calendar.png" alt="" /></span>
+      <span class="ic"><img src="../images/icons/ic-calendar.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-sesion"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-ebook" href="../index.html?modal=ebook1&lang=es">
-      <span class="ic"><img src="../images/icons/ic-book.png" alt="" /></span>
+      <span class="ic"><img src="../images/icons/ic-book.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-ebook"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general." target="_blank" rel="noopener">
-      <span class="ic"><img src="../images/icons/ic-whatsapp.png" alt="" /></span>
+      <span class="ic"><img src="../images/icons/ic-whatsapp.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-whatsapp"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
@@ -299,24 +298,22 @@
 <script>
   const t = {
     es: {
-      tagline:       'Conecta contigo, transforma tu vida.',
-      'btn-website': 'Mi sitio web',
-      'btn-mentoria':'Aplica a mentoría privada',
-      'btn-sesion':  'Agenda una sesión',
+      tagline:        'Conecta contigo, transforma tu vida.',
+      'btn-website':  'Mi sitio web',
+      'btn-mentoria': 'Aplica a mentoría privada',
+      'btn-sesion':   'Agenda una sesión',
       'btn-whatsapp': 'Escríbeme por WhatsApp',
-      'btn-ebook':   'Soltar para Expandirte',
+      'btn-ebook':    'Soltar para Expandirte',
       'footer-phrase':'Vive en coherencia, expande tu esencia.',
-      'wa-general':  'Hola Elena 🤍\n\nTengo una consulta general.',
     },
     en: {
-      tagline:       'Connect with yourself, transform your life.',
-      'btn-website': 'My website',
-      'btn-mentoria':'Apply for private mentoring',
-      'btn-sesion':  'Schedule a session',
-      'btn-whatsapp':'Message me on WhatsApp',
-      'btn-ebook':   'Let Go to Expand',
+      tagline:        'Connect with yourself, transform your life.',
+      'btn-website':  'My website',
+      'btn-mentoria': 'Apply for private mentoring',
+      'btn-sesion':   'Schedule a session',
+      'btn-whatsapp': 'Message me on WhatsApp',
+      'btn-ebook':    'Let Go to Expand',
       'footer-phrase':'Live in coherence, expand your essence.',
-      'wa-general':  'Hi Elena 🤍\n\nI have a general inquiry.',
     }
   };
 
@@ -326,18 +323,15 @@
     lang = l;
     document.documentElement.lang = l;
 
-    // Update text nodes
     document.querySelectorAll('[data-i18n]').forEach(el => {
       const key = el.getAttribute('data-i18n');
       if (t[l][key] !== undefined) el.textContent = t[l][key];
     });
 
-    // Update toggle button states
     document.querySelectorAll('.lang-toggle button').forEach(btn => {
       btn.classList.toggle('is-active', btn.dataset.lang === l);
     });
 
-    // Update hrefs that point to the main site — pass lang as param
     document.getElementById('btn-website').href =
       'https://elenasohuman.com' + (l === 'en' ? '?lang=en' : '');
 
@@ -352,11 +346,9 @@
       '../index.html?modal=ebook1&lang=' + l;
   }
 
-  // Init: read URL param, fallback to 'es'
   const urlLang = new URLSearchParams(window.location.search).get('lang');
   applyLang(urlLang === 'en' ? 'en' : 'es');
 
-  // Toggle listeners
   document.querySelectorAll('.lang-toggle button').forEach(btn => {
     btn.addEventListener('click', () => applyLang(btn.dataset.lang));
   });
