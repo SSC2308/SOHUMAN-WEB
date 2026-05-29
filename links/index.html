@@ -48,11 +48,21 @@
       flex-direction: column;
       align-items: center;
       padding: 0 20px;
-      opacity: 0;
-      animation: fadeIn 0.8s ease 0.1s forwards;
     }
 
-    @keyframes fadeIn { to { opacity: 1; } }
+    /* ── Keyframes ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(22px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes scaleIn {
+      from { opacity: 0; transform: scale(0.82); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+    @keyframes fadePure {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
 
     /* ── Lang toggle ── */
     .lang-toggle {
@@ -96,6 +106,17 @@
       padding: 56px 0 0;
     }
 
+    /* ── Animaciones de entrada ── */
+    .avatar       { opacity: 0; animation: scaleIn 0.7s cubic-bezier(0.34,1.2,0.64,1) 0.15s forwards; }
+    h1            { opacity: 0; animation: fadeUp  0.6s ease-out 0.55s forwards; }
+    .tagline      { opacity: 0; animation: fadeUp  0.6s ease-out 0.75s forwards; }
+    .links .btn:nth-child(1) { opacity: 0; animation: fadeUp 0.5s ease-out 0.90s forwards; }
+    .links .btn:nth-child(2) { opacity: 0; animation: fadeUp 0.5s ease-out 1.05s forwards; }
+    .links .btn:nth-child(3) { opacity: 0; animation: fadeUp 0.5s ease-out 1.20s forwards; }
+    .links .btn:nth-child(4) { opacity: 0; animation: fadeUp 0.5s ease-out 1.35s forwards; }
+    .links .btn:nth-child(5) { opacity: 0; animation: fadeUp 0.5s ease-out 1.50s forwards; }
+    footer        { opacity: 0; animation: fadePure 0.8s ease-out 1.70s forwards; }
+
     /* ── Avatar ── */
     .avatar {
       width: 108px;
@@ -110,7 +131,7 @@
     /* ── Brand name ── */
     h1 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem;
+      font-size: 2.6rem;
       font-weight: 500;
       letter-spacing: 0.22em;
       color: var(--dark);
