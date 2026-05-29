@@ -6,7 +6,6 @@
   <title>SOHUMAN · Links</title>
   <meta name="description" content="Conecta contigo, transforma tu vida. Links de Elena SoHuman." />
   <link rel="canonical"    href="https://elenasohuman.com/links/" />
-  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="alternate" hreflang="es"        href="https://elenasohuman.com/links/" />
   <link rel="alternate" hreflang="en"        href="https://elenasohuman.com/links/?lang=en" />
   <link rel="alternate" hreflang="x-default" href="https://elenasohuman.com/links/" />
@@ -16,7 +15,7 @@
   <meta property="og:url"          content="https://elenasohuman.com/links/" />
   <meta property="og:title"        content="SoHuman — Conecta contigo, transforma tu vida." />
   <meta property="og:description"  content="Mentoría privada para mujeres listas para transformar su identidad, mente y decisiones." />
-  <meta property="og:image"        content="https://elenasohuman.com/images/logo-gold.png" />
+  <meta property="og:image"        content="https://elenasohuman.com/og-image.png" />
   <meta property="og:image:width"  content="1080" />
   <meta property="og:image:height" content="1080" />
   <meta property="og:locale"       content="es_AR" />
@@ -189,13 +188,14 @@
     }
 
     .arr {
-      font-size: 1rem;
-      color: var(--coral);
+      display: flex;
+      align-items: center;
+      justify-content: center;
       flex-shrink: 0;
-      line-height: 1;
-      opacity: 0.7;
+      opacity: 0.6;
       transition: opacity 0.18s, transform 0.18s;
     }
+    .arr svg { width: 14px; height: 14px; }
     .btn:hover .arr { opacity: 1; transform: translate(2px,-2px); }
 
     /* ── Footer ── */
@@ -260,7 +260,7 @@
         </svg>
       </span>
       <span class="lbl" data-i18n="btn-website"></span>
-      <span class="arr">↗</span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-mentoria" href="../index.html?modal=apply">
@@ -270,7 +270,7 @@
         </svg>
       </span>
       <span class="lbl" data-i18n="btn-mentoria"></span>
-      <span class="arr">↗</span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-sesion" href="https://cal.com/sohuman/sesionclaridad" target="_blank" rel="noopener">
@@ -283,7 +283,7 @@
         </svg>
       </span>
       <span class="lbl" data-i18n="btn-sesion"></span>
-      <span class="arr">↗</span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-ebook" href="../index.html?modal=ebook1&lang=es">
@@ -294,7 +294,7 @@
         </svg>
       </span>
       <span class="lbl" data-i18n="btn-ebook"></span>
-      <span class="arr">↗</span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
     <a class="btn" id="btn-whatsapp" href="https://api.whatsapp.com/send?phone=17867372251&text=Hola%20Elena%20%F0%9F%A4%8D%0A%0ATengo%20una%20consulta%20general." target="_blank" rel="noopener">
@@ -305,7 +305,7 @@
         </svg>
       </span>
       <span class="lbl" data-i18n="btn-whatsapp"></span>
-      <span class="arr">↗</span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
   </nav>
