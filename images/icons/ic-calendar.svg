@@ -1,0 +1,18 @@
+<svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <circle cx="28" cy="28" r="28" fill="#B39160"/>
+  <!-- Calendar body -->
+  <rect x="15" y="19" width="26" height="22" rx="2.5" stroke="#ECD9C6" stroke-width="1.6"/>
+  <!-- Header divider -->
+  <line x1="15" y1="25.5" x2="41" y2="25.5" stroke="#ECD9C6" stroke-width="1.6"/>
+  <!-- Ring left -->
+  <line x1="21" y1="15" x2="21" y2="22" stroke="#ECD9C6" stroke-width="2" stroke-linecap="round"/>
+  <!-- Ring right -->
+  <line x1="35" y1="15" x2="35" y2="22" stroke="#ECD9C6" stroke-width="2" stroke-linecap="round"/>
+  <!-- Dot grid 3x2 -->
+  <circle cx="21" cy="30" r="1.5" fill="#ECD9C6"/>
+  <circle cx="28" cy="30" r="1.5" fill="#ECD9C6"/>
+  <circle cx="35" cy="30" r="1.5" fill="#ECD9C6"/>
+  <circle cx="21" cy="36" r="1.5" fill="#ECD9C6"/>
+  <circle cx="28" cy="36" r="1.5" fill="#ECD9C6"/>
+  <circle cx="35" cy="36" r="1.5" fill="#ECD9C6"/>
+</svg>

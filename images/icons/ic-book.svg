@@ -1,0 +1,11 @@
+<svg viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <circle cx="28" cy="28" r="28" fill="#272727"/>
+  <!-- Left page -->
+  <rect x="12" y="17" width="15" height="20" rx="1.5" stroke="#C4A070" stroke-width="1.6"/>
+  <!-- Right page -->
+  <rect x="29" y="17" width="15" height="20" rx="1.5" stroke="#C4A070" stroke-width="1.6"/>
+  <!-- Center spine line -->
+  <line x1="28" y1="17" x2="28" y2="37" stroke="#C4A070" stroke-width="1.6"/>
+  <!-- Bottom binding curve -->
+  <path d="M12 38 Q28 41 44 38" stroke="#C4A070" stroke-width="1.6" stroke-linecap="round"/>
+</svg>
