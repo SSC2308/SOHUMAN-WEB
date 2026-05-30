@@ -15,7 +15,7 @@
   <meta property="og:url"          content="https://elenasohuman.com/links/" />
   <meta property="og:title"        content="SoHuman — Conecta contigo, transforma tu vida." />
   <meta property="og:description"  content="Mentoría privada para mujeres listas para transformar su identidad, mente y decisiones." />
-  <meta property="og:image"        content="https://elenasohuman.com/images/logo-gold.png" />
+  <meta property="og:image"        content="https://elenasohuman.com/og-image.png" />
   <meta property="og:image:width"  content="1080" />
   <meta property="og:image:height" content="1080" />
   <meta property="og:locale"       content="es_AR" />
@@ -89,9 +89,9 @@
     }
     .lang-toggle button.is-active {
       opacity: 1;
-      background: var(--dark);
+      background: var(--gold);
       color: #fff;
-      border-color: var(--dark);
+      border-color: var(--gold);
     }
     .lang-toggle button:hover:not(.is-active) { opacity: 0.75; }
 
@@ -133,7 +133,6 @@
       font-family: 'Cormorant Garamond', serif;
       font-size: 2.6rem;
       font-weight: 500;
-      letter-spacing: 0.22em;
       color: var(--dark);
       text-transform: uppercase;
       margin-bottom: 10px;
@@ -197,7 +196,6 @@
       text-align: center;
       font-size: 0.72rem;
       font-weight: 500;
-      letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--dark);
       padding-right: 18px;
@@ -268,12 +266,6 @@
 
   <nav class="links">
 
-    <a class="btn" id="btn-website" href="https://elenasohuman.com" target="_blank" rel="noopener">
-      <span class="ic"><img src="../images/icons/ic-globe.svg" alt="" /></span>
-      <span class="lbl" data-i18n="btn-website"></span>
-      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
-    </a>
-
     <a class="btn" id="btn-mentoria" href="../index.html?modal=apply&lang=es">
       <span class="ic"><img src="../images/icons/ic-mentoria.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-mentoria"></span>
@@ -289,6 +281,12 @@
     <a class="btn" id="btn-ebook" href="../index.html?modal=ebook1&lang=es">
       <span class="ic"><img src="../images/icons/ic-book.svg" alt="" /></span>
       <span class="lbl" data-i18n="btn-ebook"></span>
+      <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
+    </a>
+
+    <a class="btn" id="btn-website" href="https://elenasohuman.com" target="_blank" rel="noopener">
+      <span class="ic"><img src="../images/icons/ic-globe.svg" alt="" /></span>
+      <span class="lbl" data-i18n="btn-website"></span>
       <span class="arr"><svg viewBox="0 0 14 14" fill="none" stroke="#AF4828" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="2" y1="12" x2="12" y2="2"/><polyline points="5,2 12,2 12,9"/></svg></span>
     </a>
 
@@ -319,21 +317,21 @@
 <script>
   const t = {
     es: {
-      tagline:        'Conecta contigo, transforma tu vida.',
-      'btn-website':  'Mi sitio web',
+      tagline:        'Conecta contigo. Ordena tu vida. Expande tu identidad.',
       'btn-mentoria': 'Aplica a mentoría privada',
-      'btn-sesion':   'Agenda una sesión',
+      'btn-sesion':   'Agenda tu sesión de claridad',
+      'btn-ebook':    'Soltar para expandirte en 6 días',
+      'btn-website':  'Conoce el universo Sohuman',
       'btn-whatsapp': 'Escríbeme por WhatsApp',
-      'btn-ebook':    'Soltar para Expandirte',
       'footer-phrase':'Vive en coherencia, expande tu esencia.',
     },
     en: {
-      tagline:        'Connect with yourself, transform your life.',
-      'btn-website':  'My website',
+      tagline:        'Connect with yourself. Order your life. Expand your identity.',
       'btn-mentoria': 'Apply for private mentoring',
-      'btn-sesion':   'Schedule a session',
+      'btn-sesion':   'Schedule your clarity session',
+      'btn-ebook':    'Let go to expand in 6 days',
+      'btn-website':  'Discover the Sohuman universe',
       'btn-whatsapp': 'Message me on WhatsApp',
-      'btn-ebook':    'Let Go to Expand',
       'footer-phrase':'Live in coherence, expand your essence.',
     }
   };
